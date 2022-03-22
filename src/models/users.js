@@ -33,6 +33,6 @@ const Users = sequelize.define("users", {
 })
 
 Users.hasOne(Phones)
-Users.hasOne(Comments)
+Users.hasMany(Comments)
 
 module.exports = Users

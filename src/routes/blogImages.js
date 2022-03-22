@@ -1,5 +1,4 @@
 const blogImages = require("express").Router()
-
 const blogImagesC = require("../controllers/blogImages")
 
 blogImages.post("/", blogImagesC.createBlogImages)
